@@ -1,0 +1,20 @@
+{
+  "name": "Candidate Summary Generator",
+  "nodes": [
+    {
+      "name": "Resume Input",
+      "type": "input",
+      "description": "Paste candidate resume text here"
+    },
+    {
+      "name": "Job Description Input",
+      "type": "input",
+      "description": "Paste job description here"
+    },
+    {
+      "name": "GPT Summary",
+      "type": "AI",
+      "description": "Generates recruiter-ready summary"
+    }
+  ]
+}
